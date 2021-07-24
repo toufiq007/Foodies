@@ -1,0 +1,9 @@
+@media (max-width:768px){
+  .story-section{
+    height: auto;
+    padding: 3rem 0;
+  }
+  .story-section h2{
+    font-size: 20px;
+  }
+}
