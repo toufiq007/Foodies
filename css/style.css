@@ -351,3 +351,44 @@ p {
   object-fit: cover;
   border-radius: 0.9375rem;
 }
+
+/*
+==========================================
+   Testimonial section Design
+==========================================
+*/
+.testimonial-section{
+  background: var(--primary-color);
+}
+.testimonial-section .carousel-item{
+  min-height: 300px;
+  margin-top: 3rem;
+  padding: 13rem 4rem;
+  border-radius: 0.9275rem;
+  text-align: center;
+  background-image: linear-gradient(45deg,lightblue,royalblue);
+}
+.slide-image{
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid black; */
+  overflow: hidden;
+  margin: auto;
+  border-radius: 50%;
+  position: static;
+}
+.slide-image img{
+  width: 100%;
+}
+.carousel-caption{
+  padding: 30px ;
+}
+.carousel-indicators{
+  padding-bottom: 30px;
+  bottom: -40px;
+}
+.carousel-indicators [data-bs-target]{
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+}
